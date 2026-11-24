@@ -48,7 +48,7 @@ export const DEFAULT_API_CONFIG: ApiConfig = {
   },
   pixaiParams: { ...DEFAULT_PIXAI_PARAMS },
   gptParams: {
-    endpointMode: 'images_edits_json',
+    endpointMode: 'images_edits',
     size: '1024x1536',
     quality: 'high',
     inputFidelity: 'high',
